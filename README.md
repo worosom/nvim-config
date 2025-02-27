@@ -6,7 +6,7 @@ This repository contains a Neovim configuration setup with various plugins and s
 
 - **Neovim**: Ensure you have Neovim installed. You can download it from [neovim.io](https://neovim.io/).
 - **Python**: Install Python and manage versions using [pyenv](https://github.com/pyenv/pyenv).
-- **Node.js**: Required for CoC (Conquer of Completion). Install it from [nodejs.org](https://nodejs.org/).
+- **Node.js**: Required for CoC (Conquer of Completion). Install it from [nodejs.org](https://nodejs.org/) or [NVM](https://github.com/nvm-sh/nvm).
 - **Yarn**: Install Yarn for managing JavaScript dependencies. Visit [yarnpkg.com](https://yarnpkg.com/) for installation instructions.
 
 ## Installation
@@ -14,7 +14,7 @@ This repository contains a Neovim configuration setup with various plugins and s
 1. **Clone the Repository**:
 
    ```bash
-   git clone <repository-url> ~/.config/nvim
+   git clone https://github.com/worosom/nvim-config ~/.config/nvim
    ```
 
 2. **Install Plugins**:
