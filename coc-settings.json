@@ -1,0 +1,12 @@
+{
+  "coc.preferences.formatOnSave": true,
+  "coc.preferences.formatOnType": true,
+  "python.pythonPath": "~/.pyenv/versions/nvim",
+  "python.venvPath": "~/.pyenv",
+  "python.formatting.provider": "autopep8",
+  "python.formatting.autopep8Path": "~/.pyenv/versions/nvim/bin/autopep8",
+  "python.formatting.blackPath": "~/.pyenv/versions/nvim/bin/black",
+  "python.linting.lintOnSave": true,
+  "python.linting.enabled": true,
+  "python.linting.pylintPath": "~/.pyenv/shims/pylint"
+}
