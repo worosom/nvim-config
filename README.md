@@ -42,6 +42,27 @@ This repository contains a Neovim configuration setup with various plugins and s
    - Configure your API keys in your ~/.zshrc to enable AI-powered features. Refer to the [Avante.nvim documentation](https://github.com/yetone/avante.nvim) for detailed setup instructions and API key configuration.
    - Currently required are `ANTHROPIC_API_KEY` and `TAVILY_API_KEY`
 
+## Font Requirements
+
+To fully utilize the icons and symbols in this Neovim configuration, you need to install a Nerd Font. Nerd Fonts are patched fonts that include a large number of glyphs and icons, which are essential for plugins like `nvim-tree` and `gitsigns`.
+
+### Installation
+
+1. **Download a Nerd Font**:
+
+   Visit [Nerd Fonts](https://www.nerdfonts.com/) and download a font of your choice. Popular options include `FiraCode Nerd Font` and `Hack Nerd Font`.
+
+2. **Install the Font**:
+
+   - On macOS, you can install the font by double-clicking the downloaded `.ttf` file and clicking "Install Font."
+   - Alternatively, use a font manager like [Font Book](https://support.apple.com/en-us/HT201749).
+
+3. **Configure Terminal**:
+
+   - Set your terminal emulator (e.g., iTerm2, Terminal.app) to use the installed Nerd Font. This is usually found in the terminal's preferences under the "Text" or "Font" section.
+
+By ensuring you have a Nerd Font installed, you'll enhance the visual experience and functionality of your Neovim setup.
+
 ## Key Features
 
 - **Lazy.nvim**: Plugin manager for Neovim.
